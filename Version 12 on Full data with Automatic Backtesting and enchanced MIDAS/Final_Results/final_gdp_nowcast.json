@@ -1,0 +1,54 @@
+{
+    "prediction_info": {
+        "model_type": "RegularizedMIDAS",
+        "target_date": "2025-06-01",
+        "last_gdp_date": "2025-03-01",
+        "prediction_timestamp": "2025-07-05T23:20:49.739205",
+        "status": "success"
+    },
+    "nowcast_results": {
+        "predicted_yoy_growth_percent": 8.1988,
+        "standard_error_yoy_percent": 1.72,
+        "confidence_interval_95_percent": {
+            "lower_bound": 4.8276,
+            "upper_bound": 11.5701
+        }
+    },
+    "raw_zscore_results": {
+        "predicted_zscore": 0.45638752693087437,
+        "standard_error_zscore": 0.6455805932949784,
+        "confidence_interval_95_zscore": {
+            "lower_bound": -0.8089504359272832,
+            "upper_bound": 1.721725489789032
+        }
+    },
+    "standardization_info": {
+        "mean": 6.982889819836066,
+        "std": 2.6642954653440105,
+        "min": 0.8029836850000001,
+        "max": 13.405893805,
+        "count": 61
+    },
+    "model_performance": {
+        "r_squared": 0.5399270924276753,
+        "adj_r_squared": null,
+        "aic": null,
+        "bic": null,
+        "n_observations": 60
+    },
+    "data_info": {
+        "training_period": {
+            "start_date": "2010-03-01",
+            "end_date": "2025-03-01",
+            "n_observations": 61
+        },
+        "n_factors": 5,
+        "factor_names": [
+            "Factor_1",
+            "Factor_2",
+            "Factor_3",
+            "Factor_4",
+            "Factor_5"
+        ]
+    }
+}

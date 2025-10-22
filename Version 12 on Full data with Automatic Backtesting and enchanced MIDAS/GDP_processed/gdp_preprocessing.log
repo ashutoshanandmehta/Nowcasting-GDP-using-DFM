@@ -1,0 +1,14 @@
+2025-07-05 22:17:11,981 - __main__ - INFO - Backup created: GDP_processed/Real GDP YoY Quarterly India-2_backup.csv
+2025-07-05 22:17:11,982 - __main__ - INFO - Loading data from 'Input Files/Real GDP YoY Quarterly India-2.csv'...
+2025-07-05 22:17:11,982 - __main__ - INFO - Successfully loaded file with utf-8 encoding
+2025-07-05 22:17:11,984 - __main__ - INFO - Data shape: (61, 2)
+2025-07-05 22:17:11,992 - __main__ - INFO - Successfully parsed dates using format: %m/%Y
+2025-07-05 22:17:11,999 - __main__ - INFO - Data cleaning completed. Final shape: (61, 1)
+2025-07-05 22:17:12,000 - __main__ - INFO - Performing stationarity tests...
+2025-07-05 22:17:12,010 - __main__ - INFO - Series appears stationary (p-value: 0.000027)
+2025-07-05 22:17:12,010 - __main__ - INFO - Detecting outliers using IQR method...
+2025-07-05 22:17:12,014 - __main__ - INFO - IQR winsorization complete. 4 outliers detected and capped.
+2025-07-05 22:17:12,014 - __main__ - INFO - Standardizing series (Z-score normalization)...
+2025-07-05 22:17:12,016 - __main__ - INFO - Standardization complete. Mean: 6.982890, Std: 2.664295
+2025-07-05 22:17:12,020 - __main__ - INFO - Processed data saved to 'GDP_processed/target.csv'
+2025-07-05 22:17:12,022 - __main__ - INFO - Metadata saved to 'GDP_processed/target_metadata.json'

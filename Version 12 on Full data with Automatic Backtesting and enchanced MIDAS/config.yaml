@@ -1,0 +1,8 @@
+gdp_path: "Input Files/Real GDP YoY Quarterly India-2.csv"
+indicator_path: "Input Files/Sample Clipped Data.csv"
+metadata_path: "Input Files/(Main) Metadata.csv"
+log_path: "Backtest_Results/backtest.log"
+max_factors: 5
+min_factors: 1
+horizon_days: 90
+training_quarters: 24 

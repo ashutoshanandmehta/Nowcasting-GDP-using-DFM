@@ -1,0 +1,25 @@
+Series_Name,Frequency,Indicator,Type,log_transform,seasonal_method,Rescaling by multiplication,seasonal_periods
+Farm Tractor: Sales (Including Exports),M,Agricultural Factor,Flow,TRUE,x13,None,None
+Foreign Investment Inflow: FDI: to India: Gross Investment (GI),M,Financial Factor,Flow,TRUE,x13,None,None
+Naukri JobSpeak Index,M,Labor Market and Employment Factor,Flow,TRUE,x13,None,None
+Cards: Volume,M,Payments Factor,Flow,TRUE,x13,None,None
+Cargo Traffic: All Airports,M,Real Activity Factor,Flow,TRUE,x13,None,None
+Cargo Traffic: ytd,M,Real Activity Factor,Flow,TRUE,x13,None,None
+Electricity Generation: Monthly: Utilities,M,Real Activity Factor,Flow,TRUE,x13,None,None
+Exports: USD,M,Real Activity Factor,Flow,TRUE,x13,None,None
+Imports: USD,M,Real Activity Factor,Flow,TRUE,x13,None,None
+Petroleum: Consumption,M,Real Activity Factor,Flow,TRUE,x13,None,None
+Index: Nifty 50,D,Financial Factor,Stock,TRUE,mstl,None,"[7, 30]"
+RBI: Components: Currency in Circulation,W,Financial Factor,Stock,TRUE,mstl,None,[52]
+Financial stress indicators,D,Financial Factor,Stock,TRUE,mstl,None,"[7, 30]"
+Registered Motor Vehicles: Two Wheeler: Non Transport,W,Real Activity Factor,Stock,TRUE,mstl,None,[52]
+Cargo Traffic: International,D,Real Activity Factor,Flow,TRUE,mstl,None,"[7, 30]"
+Rail Drishti: Railway Freight Loading: Previous Day,D,Real Activity Factor,Flow,TRUE,mstl,None,"[7, 30]"
+Consumer durables search ,D,Soft Factor,Flow,TRUE,mstl,None,"[7, 30]"
+Kharif: All Crops: Sown Area: Current Year,W,Agricultural Factor,Flow,TRUE,mstl,None,[52]
+Unemployment Rate: Current Weekly Status: Urban,Q,Labor Market and Employment Factor,Stock,TRUE,x13,None,None
+Rabi: All Crops: Sown Area: Current Year,W,Agricultural Factor,Flow,TRUE,mstl,None,[52]
+Crude Oil Price: Average International FOB: Indian Basket: USD,D,Financial Factor,Stock,TRUE,mstl,None,"[5, 30]"
+National Stock Exchange of India Limited: Index: India VIX Index,D,Financial Factor,Stock,TRUE,mstl,None,"[5, 30]"
+Federal Funds: Effective Rate,D,Financial Factor,Stock,FALSE,mstl,None,"[7, 30]"
+Real GDP: YoY: Quarterly: United States,Q,Real Activity Factor,Flow,FALSE,x13,None,None

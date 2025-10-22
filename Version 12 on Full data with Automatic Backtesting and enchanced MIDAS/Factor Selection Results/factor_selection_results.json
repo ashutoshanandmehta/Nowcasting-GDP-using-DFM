@@ -1,0 +1,95 @@
+{
+  "selection_timestamp": "2025-07-05T22:42:39.892223",
+  "data_info": {
+    "n_periods": 5631,
+    "n_series": 23,
+    "date_range": {
+      "start": "2010-01-01T00:00:00",
+      "end": "2025-06-01T00:00:00"
+    }
+  },
+  "factor_range_tested": {
+    "min_factors": 1,
+    "max_factors": 5
+  },
+  "model_results": {
+    "1": {
+      "n_factors": 1,
+      "converged": true,
+      "log_likelihood": -36944.00985662462,
+      "aic": 73984.01971324925,
+      "bic": 74302.50710472364,
+      "n_observations": 5631,
+      "n_series": 23,
+      "estimation_time": 17.493732929229736,
+      "method_used": "Robust MLE",
+      "error_message": null
+    },
+    "2": {
+      "n_factors": 2,
+      "converged": true,
+      "log_likelihood": -36713.180491595136,
+      "aic": 73576.36098319027,
+      "bic": 74073.997532369,
+      "n_observations": 5631,
+      "n_series": 23,
+      "estimation_time": 85.36777019500732,
+      "method_used": "Robust MLE",
+      "error_message": null
+    },
+    "3": {
+      "n_factors": 3,
+      "converged": true,
+      "log_likelihood": -4.5409315605413784e+16,
+      "aic": 9.081863121082778e+16,
+      "bic": 9.081863121082846e+16,
+      "n_observations": 5631,
+      "n_series": 23,
+      "estimation_time": 23.335593938827515,
+      "method_used": "Robust MLE",
+      "error_message": null
+    },
+    "4": {
+      "n_factors": 4,
+      "converged": true,
+      "log_likelihood": -13357061.996483685,
+      "aic": 26714393.99296737,
+      "bic": 26715289.738755893,
+      "n_observations": 5631,
+      "n_series": 23,
+      "estimation_time": 31.770148754119873,
+      "method_used": "Robust MLE",
+      "error_message": null
+    },
+    "5": {
+      "n_factors": 5,
+      "converged": true,
+      "log_likelihood": -36566.87494146495,
+      "aic": 73469.7498829299,
+      "bic": 74584.45575309027,
+      "n_observations": 5631,
+      "n_series": 23,
+      "estimation_time": 197.8620948791504,
+      "method_used": "Robust MLE",
+      "error_message": null
+    }
+  },
+  "selection_results": {
+    "optimal_factors": 5,
+    "selection_criterion": "AIC",
+    "selection_rationale": "Selected 5 factors with AIC=73469.75, improvement of 106.61 over 2 factors"
+  },
+  "convergence_summary": {
+    "total_models_tested": 5,
+    "models_converged": 5,
+    "convergence_rate": 1.0,
+    "failed_models": [],
+    "successful_models": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ]
+  }
+}

@@ -1,0 +1,58 @@
+2025-07-05 22:45:40,465 - DFM-Extractor - INFO - ============================================================
+2025-07-05 22:45:40,465 - DFM-Extractor - INFO - ROBUST DYNAMIC FACTOR MODEL - INDIA GDP NOWCASTING
+2025-07-05 22:45:40,465 - DFM-Extractor - INFO - ============================================================
+2025-07-05 22:45:40,465 - DFM-Extractor - INFO - Initialized Robust DFM Extractor: 5 factors, AR order 1, Max iterations 2000
+2025-07-05 22:45:40,466 - DFM-Extractor - INFO - Loading data from 'Processed Data/All_Processed_data.csv'
+2025-07-05 22:45:40,535 - DFM-Extractor - INFO - Data loaded: 5631 periods, 24 series
+2025-07-05 22:45:40,535 - DFM-Extractor - INFO - Missing observations: 108,754 (80.5%)
+2025-07-05 22:45:40,536 - DFM-Extractor - INFO - Date range: 2010-01-01 00:00:00 to 2025-06-01 00:00:00
+2025-07-05 22:45:40,536 - DFM-Extractor - INFO - 🚀 Starting factor extraction...
+2025-07-05 22:45:40,536 - DFM-Extractor - INFO - Validating data with high missing data tolerance...
+2025-07-05 22:45:40,542 - DFM-Extractor - WARNING - Removing 1 series with >99.0% missing
+2025-07-05 22:45:40,545 - DFM-Extractor - INFO - Data validation: (5631, 24) → (5631, 23)
+2025-07-05 22:45:40,545 - DFM-Extractor - INFO - Initializing robust DFM...
+2025-07-05 22:45:40,545 - DFM-Extractor - INFO - Model initialized successfully
+2025-07-05 22:45:40,545 - DFM-Extractor - INFO - Starting model estimation...
+2025-07-05 22:45:40,546 - DFM-Extractor - INFO - Attempting: Direct MLE with Robust Settings
+2025-07-05 22:45:40,546 - DFM-Extractor - INFO - Computing robust starting values...
+2025-07-05 22:45:40,568 - DFM-Extractor - INFO - Generated 163 starting parameters
+2025-07-05 22:45:40,568 - DFM-Extractor - INFO - PCA explained variance: 0.497
+2025-07-05 22:49:16,043 - DFM-Extractor - INFO - Model converged: LL=-36566.87
+2025-07-05 22:49:16,048 - DFM-Extractor - INFO - ✓ SUCCESS: Direct MLE with Robust Settings
+2025-07-05 22:49:16,055 - DFM-Extractor - INFO - Factor loadings extracted
+2025-07-05 22:49:16,055 - DFM-Extractor - INFO - Extracted 5 factors
+2025-07-05 22:49:16,055 - DFM-Extractor - INFO - Results extracted successfully
+2025-07-05 22:49:16,055 - DFM-Extractor - INFO - Diagnostics: LL=-36566.87, AIC=73469.75, BIC=74584.46
+2025-07-05 22:49:16,055 - DFM-Extractor - INFO - 💾 Saving results...
+2025-07-05 22:49:16,115 - DFM-Extractor - INFO - Factors saved to Extracted latent factor/latent_factors.csv
+2025-07-05 22:49:17,462 - DFM-Extractor - INFO - Loadings plot saved to Extracted latent factor/factor_loadings_heatmap.png
+2025-07-05 22:49:17,465 - DFM-Extractor - INFO - Parameters exported to Extracted latent factor/model_parameters.json
+2025-07-05 22:49:17,465 - DFM-Extractor - INFO - ✅ EXTRACTION COMPLETED!
+2025-07-05 22:49:17,465 - DFM-Extractor - INFO -    Status: ✅ Converged
+2025-07-05 22:49:17,465 - DFM-Extractor - INFO -    Factors: 5
+2025-07-05 22:49:17,465 - DFM-Extractor - INFO -    Time periods: 5631
+2025-07-05 22:49:17,465 - DFM-Extractor - INFO -    Log-Likelihood: -36566.87
+2025-07-05 22:49:17,465 - DFM-Extractor - INFO -    Files saved: 3/3
+2025-07-05 22:49:17,465 - DFM-Extractor - INFO - 
+🎯 TOP FACTOR LOADINGS:
+2025-07-05 22:49:17,467 - DFM-Extractor - INFO -    Factor_1:
+2025-07-05 22:49:17,467 - DFM-Extractor - INFO -      • Index: Nifty 50_processed: 0.638
+2025-07-05 22:49:17,467 - DFM-Extractor - INFO -      • National Stock Exchange of India Limited: Index: India VIX Index_processed: 0.608
+2025-07-05 22:49:17,467 - DFM-Extractor - INFO -      • Imports: USD_processed: 0.409
+2025-07-05 22:49:17,467 - DFM-Extractor - INFO -    Factor_2:
+2025-07-05 22:49:17,468 - DFM-Extractor - INFO -      • Federal Funds: Effective Rate_processed: 0.874
+2025-07-05 22:49:17,468 - DFM-Extractor - INFO -      • Cargo Traffic: All Airports_processed: 0.294
+2025-07-05 22:49:17,468 - DFM-Extractor - INFO -      • Petroleum: Consumption_processed: 0.258
+2025-07-05 22:49:17,468 - DFM-Extractor - INFO -    Factor_3:
+2025-07-05 22:49:17,468 - DFM-Extractor - INFO -      • Cargo Traffic: All Airports_processed: 0.582
+2025-07-05 22:49:17,468 - DFM-Extractor - INFO -      • Imports: USD_processed: 0.505
+2025-07-05 22:49:17,468 - DFM-Extractor - INFO -      • Exports: USD_processed: 0.476
+2025-07-05 22:49:17,469 - DFM-Extractor - INFO -    Factor_4:
+2025-07-05 22:49:17,469 - DFM-Extractor - INFO -      • Crude Oil Price: Average International FOB: Indian Basket: USD_processed: 0.754
+2025-07-05 22:49:17,469 - DFM-Extractor - INFO -      • Imports: USD_processed: 0.276
+2025-07-05 22:49:17,469 - DFM-Extractor - INFO -      • Exports: USD_processed: 0.275
+2025-07-05 22:49:17,469 - DFM-Extractor - INFO -    Factor_5:
+2025-07-05 22:49:17,469 - DFM-Extractor - INFO -      • Rail Drishti: Railway Freight Loading: Previous Day_processed: 0.825
+2025-07-05 22:49:17,469 - DFM-Extractor - INFO -      • Real GDP: YoY: Quarterly: United States_processed: 0.192
+2025-07-05 22:49:17,470 - DFM-Extractor - INFO -      • Federal Funds: Effective Rate_processed: 0.151
+2025-07-05 22:49:17,470 - DFM-Extractor - INFO - ============================================================

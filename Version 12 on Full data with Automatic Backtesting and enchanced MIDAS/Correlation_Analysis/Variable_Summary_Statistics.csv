@@ -1,0 +1,25 @@
+Variable,Total_Observations,Valid_Observations,Coverage_Percent,Mean,Std,Min,Max
+Farm Tractor: Sales (Including Exports)_processed,5631,183,3.2,0.0,1.0,-1.9241,1.9468
+Foreign Investment Inflow: FDI: to India: Gross Investment (GI)_processed,5631,182,3.2,-0.0,1.0,-2.3936,2.2805
+Naukri JobSpeak Index_processed,5631,183,3.2,-0.0,1.0,-2.369,2.3709
+Cards: Volume_processed,5631,183,3.2,0.0,1.0,-2.0283,1.9646
+Cargo Traffic: All Airports_processed,5631,183,3.2,0.0,1.0,-2.2203,2.2585
+Cargo Traffic: ytd_processed,5631,183,3.2,0.0,1.0,-2.2275,2.2446
+Electricity Generation: Monthly: Utilities_processed,5631,183,3.2,0.0,1.0,-2.3737,2.357
+Exports: USD_processed,5631,183,3.2,0.0,1.0,-2.1209,2.0834
+Imports: USD_processed,5631,183,3.2,0.0,1.0,-2.4136,2.438
+Petroleum: Consumption_processed,5631,183,3.2,-0.0,1.0,-2.5845,2.4762
+Index: Nifty 50_processed,5631,3821,67.9,0.0,1.0,-2.2702,2.2795
+RBI: Components: Currency in Circulation_processed,5631,803,14.3,0.0,1.0,-2.3498,2.2681
+Financial stress indicators_processed,5631,1977,35.1,0.0,1.0,-2.5282,2.5416
+Registered Motor Vehicles: Two Wheeler: Non Transport_processed,5631,490,8.7,0.0,1.0,-2.2449,2.2086
+Cargo Traffic: International_processed,5631,1379,24.5,0.0,1.0,-2.1753,2.1923
+Rail Drishti: Railway Freight Loading: Previous Day_processed,5631,1578,28.0,-0.0,1.0,-2.3058,2.2878
+Consumer durables search_processed,5631,1977,35.1,0.0,1.0,-2.4744,2.4335
+Kharif: All Crops: Sown Area: Current Year_processed,5631,203,3.6,0.0,1.0,-1.8328,1.7905
+Unemployment Rate: Current Weekly Status: Urban_processed,5631,25,0.4,0.0,1.0,-1.8101,1.4662
+Rabi: All Crops: Sown Area: Current Year_processed,5631,184,3.3,0.0,1.0,-1.9841,1.9912
+Crude Oil Price: Average International FOB: Indian Basket: USD_processed,5631,3169,56.3,0.0,1.0,-2.4065,2.427
+National Stock Exchange of India Limited: Index: India VIX Index_processed,5631,3297,58.6,0.0,1.0,-2.3192,2.3422
+Federal Funds: Effective Rate_processed,5631,5598,99.4,0.0,1.0,-1.9378,1.9481
+Real GDP: YoY: Quarterly: United States_processed,5631,60,1.1,0.0,1.0,-2.3795,2.2451

@@ -1,0 +1,88 @@
+{
+    "model_info": {
+        "model_type": "RegularizedMIDAS",
+        "regularization_method": "ridge",
+        "poly_degree": 2,
+        "optimal_ar_lags": 1,
+        "horizon_days": 90,
+        "alpha": 1.0,
+        "l1_ratio": null,
+        "weight_constraint": "normalized",
+        "run_timestamp": "2025-07-05T23:20:34.298348"
+    },
+    "training_period": {
+        "start_date": "2010-03-01",
+        "end_date": "2025-03-01",
+        "n_observations": 61
+    },
+    "data_sources": {
+        "factors_path": "Extracted latent factor/latent_factors.csv",
+        "target_gdp_path": "GDP_processed/target.csv",
+        "n_factors": 5,
+        "factor_names": [
+            "Factor_1",
+            "Factor_2",
+            "Factor_3",
+            "Factor_4",
+            "Factor_5"
+        ]
+    },
+    "model_statistics": {
+        "r_squared": 0.5399270924276753,
+        "r_squared_adj": 0.48784336704212916,
+        "mse": 0.41677430243909636,
+        "rmse": 0.6455805932949784,
+        "n_observations": 60,
+        "n_features": 6,
+        "optimal_ar_lags": 1,
+        "regularization": "ridge",
+        "alpha": 1.0,
+        "weight_constraint": "normalized",
+        "aic": null,
+        "bic": null,
+        "log_likelihood": null,
+        "n_parameters": 6,
+        "f_statistic": null,
+        "p_value_f_statistic": null,
+        "coefficients": {
+            "Factor_1": 0.009410434706294194,
+            "Factor_2": 0.06046289215329976,
+            "Factor_3": 0.23095986600454985,
+            "Factor_4": 0.2531413387414093,
+            "Factor_5": -0.5588689739306476,
+            "AR_lag_1": 0.49373704036355254
+        },
+        "non_zero_coefficients": 6,
+        "sparsity": 0.0,
+        "residual_mean": 1.1102230246251566e-17,
+        "residual_std": 0.6455805932949785,
+        "residual_skewness": 1.273050963545038,
+        "residual_kurtosis": 3.1537791612030985
+    },
+    "nowcast": {
+        "target_date": "2025-06-01",
+        "last_gdp_date": "2025-03-01",
+        "predicted_zscore": 0.45638752693087437,
+        "standard_error_zscore": 0.6455805932949784,
+        "confidence_interval_95": {
+            "lower_bound": -0.8089504359272832,
+            "upper_bound": 1.721725489789032
+        },
+        "success": true
+    },
+    "tested_models": {
+        "ridge": {
+            "rmse": 0.6455805932949784,
+            "adj_r2": 0.48784336704212916
+        },
+        "lasso": {
+            "rmse": 0.6908312296217716,
+            "adj_r2": 0.41353001212790697
+        },
+        "elastic_net": {
+            "rmse": 0.6721100339957701,
+            "adj_r2": 0.4448854297834346
+        }
+    },
+    "status": "success"
+}
